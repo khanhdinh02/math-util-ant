@@ -12,7 +12,7 @@ public class Main {
         long expected = 1;
         long actual = MathUtil.getFactorial(0);
         System.out.println("0! Status | Expected: " + expected + " | Actual: " + actual);
-        System.out.println("2! Status | Expected: 2" + " | Actual: " + MathUtil.getFactorial(-1));
+        System.out.println("2! Status | Expected: 2" + " | Actual: " + MathUtil.getFactorial(2));
     }
 
 }

@@ -32,7 +32,7 @@ public class MathUtilDDTTest {
             {2, 2},
             {6, 3},
             {24, 4},
-            {125, 5},
+            {120, 5},
             {720, 6}
         };
         return b;
