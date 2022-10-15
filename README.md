@@ -1,4 +1,5 @@
 # Welcome to Math Ultility Repository
+[![Java CI](https://github.com/khanhdinh02/math-util-ant/actions/workflows/ci-with-ant.yml/badge.svg)](https://github.com/khanhdinh02/math-util-ant/actions/workflows/ci-with-ant.yml)
 
 ### You will find this repo the following stuff:
 
