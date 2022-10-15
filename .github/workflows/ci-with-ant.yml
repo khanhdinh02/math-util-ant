@@ -23,3 +23,10 @@ jobs:
         distribution: 'temurin'
     - name: Build with Ant
       run: ant -noinput -buildfile build.xml
+    - name: Distribute jar-war file
+      run: mkdir staging && cp dist/*.jar staging
+    - name: Make hyperlink to jar-war file
+      uses: actions/upload-artifact@v3
+      with:
+        name: DOWNLOAD_JAR_HERE
+        path: staging
